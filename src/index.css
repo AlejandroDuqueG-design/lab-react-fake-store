@@ -112,3 +112,38 @@ nav {
   display: flex;
   flex-direction: row;
 }
+
+.ProductDetailsPage #tag {
+  background-color: #3b82f6;
+  border-radius: 5px;
+  width: 140px;
+  padding: 3px;
+
+}
+.ProductDetailsPage #price {
+  color: #3b82f6;
+  font-size: x-large;
+}
+
+.ProductDetailsPage img {
+  width: 250px;
+  padding: 15px;
+}
+
+.ProductDetailsPage .subContainer {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.ProductDetailsPage p {
+width: 500px;
+padding-right: 25px;
+}
+
+.ProductDetailsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  padding: 50px;
+}
